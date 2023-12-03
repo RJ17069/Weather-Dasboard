@@ -13,13 +13,13 @@ const showboard = ({ weather: {temp, pressure, speed, humidity, icon, feels_like
         <>
             <div className="CurrentTem">
                 <div className="CurrentTemDiv1">
-                    <h1 className="cityTime">{temp.toFixed()}°C</h1>
-                    <h6 className="cityDate">Feels Like: {feels_like.toFixed()}°C</h6>
+                    <h1 className="cityTem">{temp.toFixed()}°C</h1>
+                    <h6 className="cityFeel">Feels Like: {feels_like.toFixed()}°C</h6>
                     <div className="sunraise">
-                        <p>Sunrise:</p>
-                        <p>{FormatToLocalTime(sunrise, timezone, "hh:mma")}</p>
-                        <p>Sunset:</p>
-                        <p>{FormatToLocalTime(sunset, timezone, "hh:mma")}</p>
+                        <span>Sunrise:</span>
+                        <span>{FormatToLocalTime(sunrise, timezone, "hh:mma")}</span>
+                        <span>Sunset:</span>
+                        <span>{FormatToLocalTime(sunset, timezone, "hh:mma")}</span>
                     </div>
                 </div>
                 <div className="CurrentTemImg">

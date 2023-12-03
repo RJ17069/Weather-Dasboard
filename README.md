@@ -1,10 +1,41 @@
 # Weather-Dasboard
 
-Front page:
+### Front page:
 
-![Screenshot 2023-12-02 215942](https://github.com/RJ17069/Weather-Dasboard/assets/104430062/90085bb8-31eb-4e82-b1fd-fbe8168804b7)
+![Screenshot 2023-12-02 215942](https://github.com/RJ17069/Weather-Dasboard/assets/104430062/90085bb8-31eb-4e82-b1fd-fbe8168804b7)![Screenshot 2023-12-02 215912](https://github.com/RJ17069/Weather-Dasboard/assets/104430062/d8533d15-540f-4923-9ba6-a809f8a7f464)
 
-![Screenshot 2023-12-02 215912](https://github.com/RJ17069/Weather-Dasboard/assets/104430062/d8533d15-540f-4923-9ba6-a809f8a7f464)
+### Prerequisites
+browser (e.g. Google Chrome, Firefox)
+text editor (e.g. VSCode)
+terminal / CLI
+your own API key (https://openweathermap.org/api)
+Webpack / libraries / API usage
+basic understanding of HTML/CSS
+intermediate JavaScript knowledge
+asynchronous flow
+async/await functions / promises / error handling
+destructuring assisgnments
+modular JS
+
+### Setup
+
+git clone git@github.com:virag-ky/Weather-Dashboard.git
+
+### Install dependencies
+
+npm install
+
+### Build webpack
+
+npm run build
+
+### Run tests
+
+npm test
+
+### Open in the browser with Webpack dev server
+
+npm start
 
 Dasboard 1:
 

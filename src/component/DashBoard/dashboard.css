@@ -3,11 +3,11 @@
 .CurrentTime{
     position: absolute;
     height: 200px;
-    width: 30%;
+    min-width: 30%;
     background-color: transparent;
     color: white;
-    margin-top: 125px;
-    margin-left: 30px;
+    top: 125px;
+    left: 30px;
     border-radius: 15px;
     padding: 10px;
     border: 2px solid white;
@@ -35,10 +35,11 @@
 .CurrentTem{
     position: absolute;
     height: 250px;
-    width: 50%;
+    min-width: 50%;
     background-color: lightgray;
-    margin-top: 100px;
-    margin-left: 43%;
+    top: 100px;
+    left: 43%;
+    right: 100px;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
@@ -121,9 +122,9 @@
     height: 300px;
     overflow-y: scroll;
     background-color: transparent;
-    width: 30%;
-    margin-top: 390px;
-    margin-left: 30px;
+    min-width: 30%;
+    top: 390px;
+    left: 30px;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
@@ -160,12 +161,12 @@
 .CurrentTemHourly{
     position: absolute;
     height: 300px;
-    width: 60%;
+    min-width: 60%;
     background-color: transparent;
     border: 2px solid white;
-    margin-top: 390px;
-    margin-left: 38%;
-    margin-right: 30px;
+    top: 390px;
+    left: 38%;
+    right: 30px;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
@@ -173,6 +174,10 @@
     
     
 }
+
+.CurrentTemHourly::-webkit-scrollbar {
+    display: none;
+  }
 
 .HourlyTem{
     display: flex;

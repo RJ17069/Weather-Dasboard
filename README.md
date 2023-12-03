@@ -19,7 +19,7 @@ modular JS
 
 ### Setup
 
-git clone git@github.com:virag-ky/Weather-Dashboard.git
+git clone https://github.com/RJ17069/Weather-Dasboard.git
 
 ### Install dependencies
 

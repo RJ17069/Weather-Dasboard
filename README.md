@@ -22,14 +22,6 @@ git clone https://github.com/RJ17069/Weather-Dasboard.git
 
 npm install
 
-### Build webpack
-
-npm run build
-
-### Run tests
-
-npm test
-
 ### Open in the browser with Webpack dev server
 
 npm start

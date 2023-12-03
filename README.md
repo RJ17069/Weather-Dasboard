@@ -8,7 +8,7 @@
 - browser (e.g. Google Chrome, Firefox)
 - text editor (e.g. VSCode)
 - terminal / CLI
-- your own API key (https://openweathermap.org/api)
+- Add your own API key to WeatherFetch.js in Service (https://openweathermap.org/api)
 - Webpack
 - libraries
 - API usage
